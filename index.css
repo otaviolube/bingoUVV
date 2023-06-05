@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24vh;
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main section#cartelas{
+    width: 70%;
+    height: 76vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section#numeros {
+    width: 30%;
+    height: 76vh;
+    background-color: violet;   
+    display: flex;
+    justify-content: center;
+}
+
+section#cartelas div{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button{
+    height: 30px;
+    width: 120px;
+}
+
+section#numeros h2{
+    margin-top: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
